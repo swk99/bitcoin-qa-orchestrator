@@ -1,0 +1,15 @@
+# RADE: Retrieval-Augmented Diagnostic Engine
+# Requirements for experiment reproduction
+
+# ── Core ───────────────────────────────────────
+requests>=2.31.0          # mempool.space API
+torch>=2.1.0              # Actor-Critic training
+numpy>=1.26.0             # numerical computation
+
+# ── Database ───────────────────────────────────
+psycopg2-binary>=2.9.9    # PostgreSQL
+
+# ── Data & Analysis ────────────────────────────
+pandas>=2.1.0             # DataFrame queries
+matplotlib>=3.8.0         # calibration plots (--plot flag)
+scipy>=1.11.0             # erf for KDE (optional but recommended)

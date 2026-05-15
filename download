@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Environment
+.env
+*.json          # params_*.json (calibration outputs)
+*.png           # calibration plots
+
+# Checkpoints
+checkpoints/
+*.pt
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
